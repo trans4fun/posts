@@ -3,8 +3,13 @@ layout: post
 title: READMe
 ---
 
-½«Äú·­ÒëµÄÎÄÕÂpushµ½Õâ¸ö¿âÀï£¬»á×Ô¶¯Í¬²½µ½·­ÒëĞ¡Õ¾ÉÏ www.trans4fun.com
+#### æäº¤æµç¨‹
 
-¸ñÊ½Çë²Î¿¼
+* fork postsåº“åˆ°è‡ªå·±çš„github
+* åœ¨è‡ªå·±çš„çš„postsåº“ä¸­æ·»åŠ æ‚¨çš„æ–‡ç«  xxx.md å¹¶æäº¤
+* pull request åˆ°trans4funçš„åº“ï¼Œå†™æ˜æ³¨è§†å¦‚ï¼šxxxæäº¤æ–‡ç« 
+
+#### æ ¼å¼å‚è€ƒ
+  æ³¨æ„æ–‡ä»¶åç§°å’Œæ–‡ä»¶å†… å¤´éƒ¨å†…å®¹
 https://raw.githubusercontent.com/trans4fun/posts/master/2012-06-07-JavaScript%E5%86%85%E9%83%A8%E5%8E%9F%E7%90%86%E7%B3%BB%E5%88%97-%E5%8F%98%E9%87%8F%E5%AF%B9%E8%B1%A1.markdown
 
