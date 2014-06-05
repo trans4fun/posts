@@ -6,7 +6,7 @@ title: READMe
 #### 提交流程
 
 * fork posts库到自己的github
-* 在自己的的posts库中添加您的文章 xxx.md 并提交
+* 在自己的的posts库中添加您的文章 xxx.markdown 并提交
 * pull request 到trans4fun的库，写明注视如：xxx提交文章
 
 #### 格式参考
