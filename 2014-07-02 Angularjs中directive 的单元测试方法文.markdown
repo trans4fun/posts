@@ -1,4 +1,3 @@
-Title: 【翻译】AngularJs directive 的单元测试方法
 翻译自：[Unit Testing an AngularJS Directive](http://blog.revolunet.com/blog/2013/12/05/unit-testing-angularjs-directive/)
 
 在这篇文章中，我将详述如何给上周开发的[stepper directive](http://blog.revolunet.com/blog/2013/11www/28/create-resusable-angularjs-input-component/)做单元测试的过程。下周会讲到如何使用Github和Bower进行组件分离。
