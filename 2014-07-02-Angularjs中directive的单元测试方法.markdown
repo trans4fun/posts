@@ -1,3 +1,13 @@
+---
+layout: post
+title: Angularjs中directive的单元测试方法
+author:
+    name: 刘剑锋（Moejser）
+    link: http://www.moejser.com
+---
+
+#### 说明
+
 翻译自：[Unit Testing an AngularJS Directive](http://blog.revolunet.com/blog/2013/12/05/unit-testing-angularjs-directive/)
 
 在这篇文章中，我将详述如何给上周开发的[stepper directive](http://blog.revolunet.com/blog/2013/11www/28/create-resusable-angularjs-input-component/)做单元测试的过程。下周会讲到如何使用Github和Bower进行组件分离。
@@ -14,7 +24,7 @@ AngularJS最好的小伙伴儿[KarmaJS test runner](http://karma-runner.github.i
 
 ------------
 
-术语：
+#### 术语：
 
 在进行下一步之前有一些术语需要说明：
 
@@ -54,7 +64,7 @@ describe('sample component test', function() {
 
 ------------
 
-###测试环境搭建###
+#### 测试环境搭建
 
 将grunt-karma添加到你项目的依赖中
 
@@ -111,7 +121,7 @@ TOTAL: 4 SUCCESS
 
 ---------------------
 
-###给directive编写单元测试###
+#### 给directive编写单元测试
 
 为组件所编写的一组单元测试，又叫做spec的东西，不仅应该覆盖所要测试的组件的所有预期行为，还要将边缘情况覆盖到（比如不合法的输入、服务器的异常状况）。
 
@@ -205,13 +215,13 @@ describe('rnStepper directive', function() {
 一个非隔离scope可以通过element.scope()方法访问到。
 一个隔离的scope可以通过element.isolateScope()方法访问到。
 
-####为啥在改变一个Model的值的时候需要调用scope.$digest()方法？####
+#### 为啥在改变一个Model的值的时候需要调用scope.$digest()方法？
 
 在一个真正的angular应用中，\$digest方法是angular通过各种事件（click,inputs,requests...)的反应自动调用的。自动化测试不是以真实的用户事件为基础的，所以需要手动的调用\$digest方法（$digest方法负责更新所有数据绑定）。
 
 --------------------------------
 
-###额外福利 \#1: 实时测试###
+#### 额外福利 \#1: 实时测试
 
 多亏了grunt，当文件改动的时候，可以自动的进行测试。
 
@@ -233,7 +243,7 @@ grunt.registerTask('default', ['karma:unit', 'connect', 'watch']);
 
 ----------------------------------
 
-###额外福利  \#2:添加测试覆盖率报告 ###
+#### 额外福利  \#2:添加测试覆盖率报告
 
 作为开发者，我们希望以靠谱的数据作为依据，也希望持续的改进自己的代码。"coverage"指的是你的测试代码的覆盖率，它可以提供给你一些指标和详细的信息，无痛的增加代码的覆盖率。
 
